@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section_one{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section_one_sub{
+    background-color: #264653;
+}
+.section_one p{
+    width: 90%;
+}
+
+.holder{
+    width: 100%;
+    color: white;
+}
+
+.resizer{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.section_second{
+    width: 100%;
+}
+
+.section_second h1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section_second p{
+    color: coral;
+    text-align: center;
+}
+
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.feature_image{
+    width: 300px;
+    height: auto;
+}
+
+.section_heading{
+    width: 100%;
+}
+
+.section_heading h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.card_width{
+    min-width: 300px!important;
+}
+.card div{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+.flexer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.img_round{
+    border-radius: 50%;
+    width: 70px;
+    height: 150px;
+}
+
+.fas{
+    color: coral;
+    font-size: 20px;
+}
+
+.far{
+    color: coral;
+    font-size: 20px;
+}
+
+.accordion_holder{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.pmethood_holder{
+    padding: 20px;
+}
+
+.pmethood_holder:hover{
+    box-shadow: 0 15px 20px 0 rgb(55 84 170 / 10%);
+}
+
+.pmethood_holder i{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.pmethood_holder p{
+    display: inline-block; 
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.accordion_holder div{
+    width: 500px;
+    height: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    modal, fade {
+      background-color: lightblue;
+    }
+  }
